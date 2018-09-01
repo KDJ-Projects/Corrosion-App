@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Corrosion app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="title">
+      <h1>Corrosion calculation App</h1>
+  </div>
+
+  <h3><b>Voer tank info in om te bereken hoeveel jaar een tankbodem nog zal meegaan!</b></h3><br>
+
+  <div class="container">
+    <div class="input">
+        <p>Ouderdom van de tank:</p>
+        <input type="text" size="5" id="age">
+        jaar<br><br>
+  
+        <p>Nominale dikte van de bodemplaat:</p>
+        <input type="text" size="5" id="nom">
+        mm<br><br>
+  
+        <p>Laagst gemeten restwaarde bodem:</p>
+        <input type="text" size="5" id="lrstw">
+        mm
+    </div>
+    
+    <div class="btn">
+        <button id="btn" onclick="calculate()"><b>CALCULATE</b></button>
+    </div>
+  
+    <div class="output">
+      <p id="output1"></p>
+      <p id="output2"></p>
+    </div>
+  </div>
+  
+  
+  <script src="main.js"></script>
+</body>
+</html>
