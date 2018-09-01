@@ -1,0 +1,43 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: bisque;
+}
+
+.title {
+  background-color: green;
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.container {
+  text-align: center;
+  padding-top: 15px;
+}
+
+#btn {
+  background-color: rgb(0, 162, 255);
+  width: 120px;
+  height: 30px;
+  border-radius: 5px;
+}
+
+.btn {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+h3 {
+  text-align: center;
+  text-decoration-line: underline;
+  padding-top: 20px;
+  color: blue;
+}
+
+.output {
+  padding-top: 50px;
+}
